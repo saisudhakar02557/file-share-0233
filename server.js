@@ -11,7 +11,7 @@ const connectDB = require('./config/db');
 connectDB();
 //cors
 const corsOptions = {
-    origin: 'http://localhost:3001'
+    origin: 'http://127.0.0.1:3001'
     // ['http://localhost:3000', 'http://localhost:5000', 'http://localhost:3300','http://127.0.0.1:3001/']
   }
   app.use(cors(corsOptions))
